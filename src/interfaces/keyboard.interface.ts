@@ -3,6 +3,7 @@ import {KeyboardSectionType} from '../types/keyboard.section.type';
 export interface KeyboardInterface {
     allow?: {
         shift?: boolean; // default true
+        max?: number;
         accents?: KeyboardSectionType;
         alphabet?: KeyboardSectionType;
         commands?: KeyboardSectionType;
